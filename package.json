@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gooby": "budo js/app.js:prod.js --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanespinet/wikipedia-alan-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanespinet/wikipedia-alan-project/issues"
+  },
+  "homepage": "https://github.com/alanespinet/wikipedia-alan-project#readme",
+  "devDependencies": {
+    "budo": "^8.3.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}

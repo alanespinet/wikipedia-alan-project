@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url('../img/header-back.jpeg');
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+}
+
+#finding-form {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 30%;
+  height: 100%;
+  float: right;
+  padding-top: 5%;
+}
+
+#finding-form h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-left: 15%;
+}
+
+header input[type = "text"] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  width: 50%;
+  margin-left: 15%;
+  padding-left: 3%;
+}
+
+header button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  height: 40px;
+  border: none;
+  width: 125px;
+  margin-left: 2%;
+}
+
+#wiki-img {
+  width: 210px;
+  height: 200px;
+
+  background-image: url('../img/wiki.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-left: 60%;
+  margin-bottom: 50px;
+  opacity: 0.6;
+}
+
+#app-title {
+  float: left;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 35%;
+  height: 25%;
+  padding-left: 40px;
+  border-radius: 0 0 240px 0;
+}
+
+#app-title h1,
+#app-title h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+#app-title h1 {
+  font-size: 3.2rem;
+}
+
+#search-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  float: left;
+  width: 60%;
+  height: 65%;
+
+  margin-left: 5%;
+  margin-top: 2%;
+
+  padding: 3%;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.7);
+
+  overflow: auto;
+  border-radius: 80px 0 80px 0;
+}
+
+#search-content a:link, #search-content a:visited, #search-content a:active,
+#search-content a:hover {
+  text-decoration: underline;
+  font-size: 2.4rem;
+  color: #ffc266;
+}
